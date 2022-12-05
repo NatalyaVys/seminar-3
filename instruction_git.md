@@ -8,4 +8,27 @@ Git -это программа...
 чтобы создать новый репозиторий(инициализировать) нужно ввести команду: 
     
     git init
-    
+
+
+## проверка актуального состояния репозитория
+
+Для того, чтобы проверить в каком состоянии находится репозиториЙ нужно ввести  команду:
+
+    git status
+
+    git add <имя файла>
+
+    git commit
+    git commit -m "message"
+    git commit -am "message"
+
+    git diff
+    git diff <hash> <hash2>
+
+    git chekout <hash>
+
+    git log
+    git log --oneline
+    git log --all
+    git log -- all --oneline
+
